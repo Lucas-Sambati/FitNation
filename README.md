@@ -3,6 +3,6 @@
 
 Link Portifólio da Equipe - https://lucas-sambati.github.io/LMTCCORP/
 
-Link MVP (protótipo) - https://treinaquiz.wordpress.com/
+Link Site MVP (protótipo) - https://treinaquiz.wordpress.com/
 
 
