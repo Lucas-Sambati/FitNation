@@ -20,11 +20,13 @@
 
     <div id="login">
         <h1>Login</h1>
-        <input type="text" placeholder="Email">
-        <br><br>
-        <input type="password" placeholder="Senha">
-        <br><br>
-        <button>Enviar</button>
+        <form action="testLogin.php" method="POST">
+            <input type="text" name="email" placeholder="Email">
+            <br><br>
+            <input type="password" name="senha" placeholder="Senha">
+            <br><br>
+            <button name="submit">Enviar</button>
+        </form>
     </div>
 </body>
 </html>
