@@ -104,7 +104,109 @@ footer {
     max-width: 100%;
     background-color: #dcddd4;
     padding: 40px 100px; 
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
+}
+
+#descricao-footer {
+    display: block;
+    max-width: 30%;
+}
+
+#titulo-descricao {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+}
+
+#texto-descricao {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #636363;
+    line-height: 20px;
+}
+
+#descricao-image {
+    margin-right: 20px;
+}
+
+#social-footer {
+    display:block;
+    max-width: 30%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#titulo-social {
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+}
+
+#texto-social {
+    display: block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #636363;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 12.45px;
+}
+
+#texto-social:hover {
+    text-decoration: underline;
+}
+
+#projetos-footer {
+    display:block;
+    max-width: 30%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#titulo-projetos {
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+}
+
+#texto-projetos {
+    display: block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #636363;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 12.45px;
+}
+
+#texto-projetos:hover {
+    text-decoration: underline;
+}
+
+#parcerias-footer {
+    display:block;
+    max-width: 30%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#titulo-parcerias {
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16.8px;
+    font-weight: 700;
+}
+
+#texto-parcerias {
+    display: block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #636363;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 12.45px;
+}
+
+#texto-parcerias:hover {
+    text-decoration: underline;
 }
