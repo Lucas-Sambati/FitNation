@@ -95,4 +95,16 @@ h2 {
 
 #main-image {
     border-radius: 30px;
+    max-width: 100%;
+
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    background-color: #dcddd4;
+    padding: 40px 100px; 
+    align-items: center;
+    justify-content: center;
+
 }
