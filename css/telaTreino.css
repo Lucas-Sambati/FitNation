@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #dcddd4;
+    width: 100%;
+    padding: 30px 100px; 
+    align-items: center;
+}
+
+#logo {
+    padding: 0;
+}
+
+a {
+    color: black;
+    font-size: 18px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#perfil {
+    padding-right: 200px;
+    transition: transform 100ms linear;
+}
+
+#perfil:hover {
+    transform: scale(1.05);
+}
+
+main {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#treino {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: black;
+    font-size: 18px;
+    font-family: "Cambo", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#conteudo-treino {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#musuculo {
+    max-width: 376px;
+}
+
+#titulo-musuculo {
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #636363;
+    line-height: 20px;
+    font-weight: 400;
+}
