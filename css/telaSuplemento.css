@@ -40,7 +40,7 @@ main {
     padding-right: 100px;
 }
 
-#treino {
+#suplemento {
     margin-bottom: 30px;
 }
 
@@ -51,21 +51,21 @@ h2 {
     font-weight: 700;
 }
 
-#conteudo-treino {
+#conteudo-suplemento {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
-#musuculo {
+#item-suplemento {
     max-width: 376px;
     flex-basis: calc(25% - 10px);
     margin-bottom: 20px;
 
 }
 
-#titulo-musuculo {
+#titulo-item-suplemento {
     font-weight: 400;
 }
 
@@ -78,13 +78,13 @@ h3 {
 }
 
 @media (max-width: 1024px) {
-    #musuculo {
+    #suplemento {
         flex-basis: calc(50% - 10px); /* Ajusta a largura para 50% menos a margem */
     }
 }
 
 @media (max-width: 600px) {
-    #musuculo {
+    #suplemento {
         flex-basis: 100%; /* Ajusta a largura para 100% em telas muito pequenas */
     }
 }

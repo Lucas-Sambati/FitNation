@@ -1,24 +1,3 @@
-<?php
-    session_start();
-
-    //print_r($_SESSION);
-
-    include_once('config.php');
-    if((!isset($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true))
-    {
-        unset($_SESSION['email']);
-        unset($_SESSION['senha']);
-        header('Location: telaLogin.php');
-    }
-    $logado = $_SESSION['email']; 
-
-    $sql = "SELECT nome FROM usuarios WHERE email = '$logado'";
-    $result = $conexao->query($sql);
-    $row = $result->fetch_assoc();
-    $nome = $row['nome'];
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
