@@ -14,9 +14,6 @@
     <link rel="stylesheet" href="css/telaLogin.css">
 </head>
 <body>
-    <div id="titulo">
-        <a href="index.html">FitNation</a>
-    </div>
 
     <div id="login">
         <h1>Login</h1>

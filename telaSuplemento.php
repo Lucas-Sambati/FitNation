@@ -93,8 +93,6 @@
                     e a prática de exercícios regulares.
                 </h3>
             </div>
-        </div>
-        <div id="conteudo-suplemento">
             <div id="item-suplemento">
                 <img src="assets/img/preTreino.png" alt="Pré-Treino">
                 <h2 id="titulo-item-suplemento">Pré-Treino</h2>

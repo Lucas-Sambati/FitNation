@@ -37,11 +37,6 @@
     <link rel="stylesheet" href="css/telaRegistro.css">
 </head>
 <body>
-    <div id="titulo">
-        <a href="index.html">FitNation</a>
-    </div>
-    
-
     <form action="telaRegistro.php" method="POST">
         <fieldset id="registro">
                 <h1>Registre-se</h1>

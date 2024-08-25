@@ -93,8 +93,6 @@
                     a saciedade. As fibras também contribuem para a saúde do intestino e auxiliam no controle do peso.
                 </h3>
             </div>
-        </div>
-        <div id="conteudo-dieta">
             <div id="alimento">
                 <img src="assets/img/acucares.png" alt="Açúcares">
                 <h2 id="titulo-alimento">Açúcares</h2>
