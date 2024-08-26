@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #dcddd4;
+    background-color: #1b2a49;
     width: 100%;
     position: fixed;
     padding: 40px 100px; 
@@ -20,7 +20,7 @@ nav {
 }
 
 a {
-    color: black;
+    color: #FFF;
     font-size: 15px;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -132,7 +132,7 @@ h3 {
 footer {
     display: flex;
     max-width: 100%;
-    background-color: #dcddd4;
+    background-color: #1b2a49;
     padding: 40px 100px; 
     justify-content: space-between;
 
@@ -148,12 +148,13 @@ footer {
     font-size: 16.8px;
     font-weight: 700;
     padding: 0;
+    color: #FFF;
 }
 
 #texto-descricao {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #636363;
+    color: #cfd6e4;
     line-height: 20px;
     font-weight: 400;
 }
@@ -173,13 +174,14 @@ footer {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16.8px;
     font-weight: 700;
+    color: #FFF;
 }
 
 #texto-social {
     display: block;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #636363;
+    color: #cfd6e4;
     line-height: 20px;
     font-weight: 400;
     margin-top: 12.45px;
@@ -201,13 +203,14 @@ footer {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16.8px;
     font-weight: 700;
+    color: #FFF;
 }
 
 #texto-projetos {
     display: block;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #636363;
+    color: #cfd6e4;
     line-height: 20px;
     font-weight: 400;
     margin-top: 12.45px;
@@ -229,13 +232,14 @@ footer {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16.8px;
     font-weight: 700;
+    color: #FFF;
 }
 
 #texto-parcerias {
     display: block;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #636363;
+    color: #cfd6e4;
     line-height: 20px;
     font-weight: 400;
     margin-top: 12.45px;
