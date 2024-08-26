@@ -47,7 +47,7 @@
             <a href="telaDieta.php">Dieta</a>
             <a href="telaSuplemento.php">Suplementos</a>
         </nav>
-        <img id="perfil" src="assets/img/perfil.png" alt="Perfil">
+        <a id="perfil" href="telaPerfilCompleto.php"><img src="assets/img/perfil.png" alt="Perfil"></a>
     </header> 
 
     <main>
