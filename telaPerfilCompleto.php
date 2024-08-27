@@ -10,7 +10,12 @@
     }
     $logado = $_SESSION['email']; 
 
-    if(empty($_SESSION['treinoSeg'])) 
+    $sql = "SELECT treinoSeg FROM caracteristicas WHERE email = '$logado'";
+        $result = $conexao->query($sql);
+        $row = $result->fetch_assoc();
+        $treinoSeg = $row['treinoSeg'];
+
+    if(empty($treinoSeg)) 
     {
         header('Location: telaPerfil.php');
     }
@@ -21,28 +26,28 @@
         $row = $result->fetch_assoc();
         $nome = $row['nome'];
 
-        $treinoSeg = $_SESSION['treinoSeg'];
-        $treinoTer = $_SESSION['treinoTer'];
-        $treinoQua = $_SESSION['treinoQua'];
-        $treinoQui = $_SESSION['treinoQui'];
-        $treinoSex = $_SESSION['treinoSex'];
-        $treinoSab = $_SESSION['treinoSab'];
-        $treinoDom = $_SESSION['treinoDom'];
-        $suplementosSeg = $_SESSION['suplementosSeg'];
-        $suplementosTer = $_SESSION['suplementosTer'];
-        $suplementosQua = $_SESSION['suplementosQua'];
-        $suplementosQui = $_SESSION['suplementosQui'];
-        $suplementosSex = $_SESSION['suplementosSex'];
-        $suplementosSab = $_SESSION['suplementosSab'];
-        $suplementosDom = $_SESSION['suplementosDom'];
-        $dieta = $_SESSION['dieta'];
-
-        $sql = "SELECT id FROM caracteristicas WHERE email = '$logado'";
+        $sql = "SELECT treinoSeg, treinoTer, treinoQua, treinoQui, treinoSex, treinoSab, treinoDom,
+               suplementosSeg, suplementosTer, suplementosQua, suplementosQui, suplementosSex, suplementosSab, suplementosDom,
+               dieta FROM caracteristicas WHERE email = '$logado'";
         $result = $conexao->query($sql);
         $row = $result->fetch_assoc();
-        $id = $row['id'];
 
-        $_SESSION['id'] = $id;
+        $treinoSeg = $row['treinoSeg'];
+        $treinoTer = $row['treinoTer'];
+        $treinoQua = $row['treinoQua'];
+        $treinoQui = $row['treinoQui'];
+        $treinoSex = $row['treinoSex'];
+        $treinoSab = $row['treinoSab'];
+        $treinoDom = $row['treinoDom'];
+        $suplementosSeg = $row['suplementosSeg'];
+        $suplementosTer = $row['suplementosTer'];
+        $suplementosQua = $row['suplementosQua'];
+        $suplementosQui = $row['suplementosQui'];
+        $suplementosSex = $row['suplementosSex'];
+        $suplementosSab = $row['suplementosSab'];
+        $suplementosDom = $row['suplementosDom'];
+        $dieta = $row['dieta'];
+
     }
 ?>
 

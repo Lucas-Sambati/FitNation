@@ -1,9 +1,9 @@
 <?php 
 
-    $dbHost = 'Localhost';
+    $dbHost = 'localhost';
     $dbUsername = 'root';
     $dbPassword = '';
-    $dbName = 'formulario-fitnation';
+    $dbName = 'formulario_fitnation';
 
     $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 ?>

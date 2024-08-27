@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #dcddd4;
+    background-color: #1b2a49;
     max-width: 100%;
     padding: 30px 100px; 
     align-items: center;
@@ -12,8 +12,8 @@ header {
 }
 
 a {
-    color: black;
-    font-size: 18px;
+    color: #FFF;
+    font-size: 15px;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-decoration: none;
@@ -25,12 +25,27 @@ a:hover {
     text-decoration-thickness: 2px;
 }
 
+nav a {
+    border-radius: 25px;
+    background: linear-gradient(135deg, #4e5d78, #3e4a63);
+    transition: background 0.3s ease, transform 0.2s ease;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #697996, #4e5d78);
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
 #perfil {
     transition: transform 100ms linear;
 }
 
 #perfil:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
 }
 
 body {
@@ -57,7 +72,7 @@ body {
 
 #nome {
     font-size: 2.5em;
-    color: #000;
+    color: #FFF;
     margin: 0;
 }
 
@@ -156,7 +171,7 @@ button:hover {
 footer {
     display: flex;
     max-width: 100%;
-    background-color: #dcddd4;
+    background-color: #1b2a49;
     padding: 40px 100px; 
     justify-content: space-between;
 
@@ -171,15 +186,19 @@ footer {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16.8px;
     font-weight: 700;
+    color: #FFF;
     padding: 0;
+    text-decoration: none;
 }
 
 #texto-descricao {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #636363;
+    color: #cfd6e4;
     line-height: 20px;
     font-weight: 400;
+    margin-top: 12.45px;
+    margin-bottom: 12.45px;
 }
 
 #descricao-image {
@@ -197,13 +216,14 @@ footer {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16.8px;
     font-weight: 700;
+    color: #FFF;
 }
 
 #texto-social {
     display: block;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #636363;
+    color: #cfd6e4;
     line-height: 20px;
     font-weight: 400;
     margin-top: 12.45px;
@@ -225,13 +245,14 @@ footer {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16.8px;
     font-weight: 700;
+    color: #FFF;
 }
 
 #texto-projetos {
     display: block;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #636363;
+    color: #cfd6e4;
     line-height: 20px;
     font-weight: 400;
     margin-top: 12.45px;
@@ -253,13 +274,14 @@ footer {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16.8px;
     font-weight: 700;
+    color: #FFF;
 }
 
 #texto-parcerias {
     display: block;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #636363;
+    color: #cfd6e4;
     line-height: 20px;
     font-weight: 400;
     margin-top: 12.45px;

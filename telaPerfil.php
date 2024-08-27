@@ -44,44 +44,17 @@
         VALUES('$logado','$treinoSeg','$treinoTer','$treinoQua','$treinoQui','$treinoSex','$treinoSab','$treinoDom','$suplementosSeg','$suplementosTer','$suplementosQua',
         '$suplementosQui','$suplementosSex','$suplementosSab','$suplementosDom','$dieta')");
 
-        
-        $_SESSION['treinoSeg'] = $treinoSeg;
-        $_SESSION['treinoTer'] = $treinoTer;
-        $_SESSION['treinoQua'] = $treinoQua;
-        $_SESSION['treinoQui'] = $treinoQui;
-        $_SESSION['treinoSex'] = $treinoSex;
-        $_SESSION['treinoSab'] = $treinoSab;
-        $_SESSION['treinoDom'] = $treinoDom;
-        $_SESSION['suplementosSeg'] = $suplementosSeg;
-        $_SESSION['suplementosTer'] = $suplementosTer;
-        $_SESSION['suplementosQua'] = $suplementosQua;
-        $_SESSION['suplementosQui'] = $suplementosQui;
-        $_SESSION['suplementosSex'] = $suplementosSex;
-        $_SESSION['suplementosSab'] = $suplementosSab;
-        $_SESSION['suplementosDom'] = $suplementosDom;
-        $_SESSION['dieta'] = $dieta;
-
         header('Location: telaPerfilCompleto.php');
     }
 
     if(isset($_POST['delete'])) 
     {
-        $result = mysqli_query($conexao, "DELETE FROM caracteristicas WHERE id = $_SESSION[id]");
-        unset($_SESSION['treinoSeg']);
-        unset($_SESSION['treinoTer']);
-        unset($_SESSION['treinoQua']);
-        unset($_SESSION['treinoQui']);
-        unset($_SESSION['treinoSex']);
-        unset($_SESSION['treinoSab']);
-        unset($_SESSION['treinoDom']);
-        unset($_SESSION['suplementosSeg']);
-        unset($_SESSION['suplementosTer']);
-        unset($_SESSION['suplementosQua']);
-        unset($_SESSION['suplementosQui']);
-        unset($_SESSION['suplementosSex']);
-        unset($_SESSION['suplementosSab']);
-        unset($_SESSION['suplementosDom']);
-        unset($_SESSION['dieta']);
+        $sql = "SELECT id FROM caracteristicas WHERE email = '$logado'";
+        $result = $conexao->query($sql);
+        $row = $result->fetch_assoc();
+        $id = $row['id'];
+
+        $result = mysqli_query($conexao, "DELETE FROM caracteristicas WHERE id = $_id");
     }
 ?>
 
